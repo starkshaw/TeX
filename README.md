@@ -1,2 +1,2 @@
 # TeX
-This is a repository of sample TeX documents.
+This is a repository of example TeX documents.

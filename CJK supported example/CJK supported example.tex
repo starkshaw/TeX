@@ -1,0 +1,26 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass{article}
+
+\usepackage{xeCJK,xltxtra,fontspec,xunicode}
+\setCJKmainfont[BoldFont=STSongti-SC-Bold]{STSongti-SC-Regular}
+\setCJKsansfont[BoldFont=NotoSansCJKsc-Bold]{NotoSansCJKsc-Regular}
+\setromanfont[Numbers=Uppercase, Ligatures=TeX, BoldFont=Baskerville-Bold, ItalicFont=Baskerville-Italic, BoldItalicFont=Baskerville-BoldItalic]{Baskerville}
+\setsansfont[BoldFont=HelveticaNeue-Bold, ItalicFont=HelveticaNeue-Italic, BoldItalicFont=HelveticaNeue-BoldItalic]{HelveticaNeue}
+\setmonofont[Scale=0.90, Color={0019D4}, Ligatures=NoCommon,BoldFont=SourceCodePro-Bold]{SourceCodePro-Regular}
+
+
+\begin{document}
+
+\title{\textsf{\textbf{CJK 字体支持案例}}}
+\author{Stark Shaw}
+
+\maketitle
+
+\textsf{广陵三月花正开 \space 花里逢君醉一回 \space Manners maketh man.}\par
+\textsf{\textbf{广陵三月花正开 \space 花里逢君醉一回 \space Manners maketh man.}}\par
+
+广陵三月花正开 \space 花里逢君醉一回 \space Manners maketh man.\par
+\textbf{广陵三月花正开 \space 花里逢君醉一回 \space Manners maketh man.}\par
+
+\end{document}
